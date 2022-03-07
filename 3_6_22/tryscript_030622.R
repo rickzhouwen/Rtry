@@ -14,6 +14,9 @@ mean(y<0.2) - pnorm(0.2)
 # add data from tidy pacakge, github: tidytuesday 03/06/22
 library("tidyverse")
 
+
+
+# Read data
 tuesdata <- tidytuesdayR::tt_load('2022-02-22')
 tuesdata <- tidytuesdayR::tt_load(2022, week = 8)
 
