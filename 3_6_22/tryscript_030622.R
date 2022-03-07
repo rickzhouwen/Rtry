@@ -8,4 +8,7 @@ for (s in 1:S)
   x = rnorm(n,1)
   y[s] = mean(x)*sqrt(n)
 }  
-mean(y<0.2) - rnorm(0.2)
+mean(y<0.2) - pnorm(0.2)
+
+hist(y)
+
